@@ -17,7 +17,7 @@
   </style>
 </head>
 
-<body>
+ <body>
   <header>
     <nav class="mx-28">
       <div class="navbar bg-base-100">
@@ -63,7 +63,7 @@
 
       </div>
     </nav>
-    <div class="max-w-6xl mx-28">
+    <div class="lg:max-w-6xl mx-28">
       <div class="carousel w-full">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="images/1.png" class="w-full" />
@@ -83,16 +83,18 @@
     </div>
 
   </header>
-  <hr class="pb-5 mx-24">
+  <hr class="lg:pb-5 mx-24">
   <main>
 
     <div class="text-center">
       <h3 class="btn btn-ghost text-xl font-manrope lg:pb-6">Professional Hockeys Club</h3>
-      <p class="text-sm  text-[#424247] font-manrope pb-7">Elite athletes on ice, our professional hockey club
+      <p class="text-sm  text-[#424247] font-manrope pb-auto lg:pb-7">Elite athletes on ice, our professional hockey club
         exemplifies skill, teamwork,<br> and a passion for the game, aiming for victory with every puck drop.</p>
     </div>
     <hr class="py-7 pb-8 mx-24">
-    <div class="text-center block lg:space-x-36">
+    <section class="inline-grid grid-cols-1">
+
+    <div class="text-center lg:space-x-36">
 
       <div class="radial-progress" style="--value:87;" role="progressbar">87%</div>
       <div class="radial-progress" style="--value:95;" role="progressbar">95</div>
@@ -105,57 +107,62 @@
       <p class="font-semibold">Senior Player</p>
       <p class="font-semibold">Training Ground</p>
     </div>
-    <div class="flex text-center mx-56 gap-x-32 text-xs text-[#424247] pb-24">
+    <div class="flex text-center lg:mx-56 gap-x-32 text-xs text-[#424247] pb-24">
       <p>Amet consectetur Condimentumbr.</p>
       <p>Amet consectetur Condimentum.</p>
       <p>Amet consectetur Condimentum.</p>
       <p>Amet consectetur Condimentum.</p>
     </div>
+  </section>
     <hr class="mt--24 mb-24 mx-24">
     <div class="text-center">
       <h3 class="text-xl font-extrabold text-[#131318] font-manrope my-2.5">Program Sections</h3>
-      <p class="mx-56 text-xs text-[#424247] my-2.5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>
+      <p class="mx-56 text-xs text-[#424247] my:auto lg:my-2.5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>
         turpis placerat dolor. Purus urna in sit nullam proin. </p>
     </div>
-    <div class="flex mx-28">
-      <div class="card w-1/2 bg-base-100 image-full pl-2.5 pt-6">
-        <figure><img src="Images/2.png" alt="" /></figure>
-        <div class="card-body mt-16 ml-2 ">
-          <h2 class="card-title">Junior Program</h2>
-          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-          <div class="card-actions justify-start">
-            <button class="btn btn-primary">Register Now!</button>
+    <div class="grid grid-cols-1">
+      <div class="grid lg:grid-cols-2 mx-28">
+        <div class="card lg:w-full bg-base-100 image-full pl-2.5 pt-6">
+          <figure><img src="Images/2.png" alt="" /></figure>
+          <div class="card-body mt-16 ml-2 ">
+            <h2 class="card-title">Junior Program</h2>
+            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <div class="card-actions justify-start">
+              <button class="btn btn-primary">Register Now!</button>
+            </div>
+          </div>
+        </div>
+        <div class="card lg:w-full  bg-base-100 image-full pl-2.5 pt-6">
+          <figure><img src="Images/3.png" alt="" /></figure>
+          <div class="card-body mt-16 ml-2 ">
+            <h2 class="card-title">Teenager Program</h2>
+            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <div class="card-actions justify-start">
+              <button class="btn btn-primary">Register Now!</button>
+            </div>
           </div>
         </div>
       </div>
-      <div class="card w-1/2 bg-base-100 image-full pl-2.5 pt-6">
-        <figure><img src="Images/3.png" alt="" /></figure>
-        <div class="card-body mt-16 ml-2 ">
-          <h2 class="card-title">Teenager Program</h2>
-          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-          <div class="card-actions justify-start">
-            <button class="btn btn-primary">Register Now!</button>
+      <div class="w-1/2 lg:w-full">
+        <div class="card mx-28 bg-base-100 image-full pl-2.5 pt-6">
+  
+          <figure><img src="Images/4.png" alt="" /></figure>
+          <div class="card-body mt-32 ml-2 mr-40">
+            <h2 class="card-title">Teenager Program</h2>
+            <p>Dolor sit amet consectetur.Ut urna diam quis <br> Elit elit
+              enim sagittis turpis in magna. Id et sed <br> euismod natoque amet nunc morbi nulla. Tortor congue sed et
+              in.</p>
+            <div class="card-actions justify-start">
+              <button class="btn btn-primary">Register Now!</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="w-full">
-      <div class="card mx-28 bg-base-100 image-full pl-2.5 pt-6">
 
-        <figure><img src="Images/4.png" alt="" /></figure>
-        <div class="card-body mt-32 ml-2 mr-40">
-          <h2 class="card-title">Teenager Program</h2>
-          <p>Dolor sit amet consectetur.Ut urna diam quis <br> Elit elit
-            enim sagittis turpis in magna. Id et sed <br> euismod natoque amet nunc morbi nulla. Tortor congue sed et
-            in.</p>
-          <div class="card-actions justify-start">
-            <button class="btn btn-primary">Register Now!</button>
-          </div>
-        </div>
-      </div>
     </div>
+    
     <hr class="mt-16 mb-10 mx-24">
     <div>
       <div class="text-center">
@@ -166,9 +173,9 @@
     </div>
     <hr class="mt-10 mb-5 mx-24">
 
-    <section class="mx-28 flex gap-6">
+    <section class="mx-28 grid lg:grid-cols-2 gap-6">
       <div>
-        <div class="card card-side bg-base-100 shadow-xl border pl-3 mb-6">
+        <div class="card card-side bg-base-100 shadow-xl border pl-3 mb-6 grid grid-cols-1 lg:flex">
           <figure><img src="Images/5.png" alt="" /></figure>
           <div class="card-body flex">
             <h2 class="card-title">World Cup Flags Football</h2>
@@ -203,7 +210,7 @@
           </div>
         </div>
 
-        <div class="card card-side bg-base-100 shadow-xl border pl-3 mb-6">
+        <div class="card card-side bg-base-100 shadow-xl border pl-3 mb-6 grid grid-cols-1 lg:flex">
           <figure><img src="Images/6.png" alt="" /></figure>
           <div class="card-body flex">
             <h2 class="card-title">World Cup Flags Football</h2>
@@ -238,7 +245,7 @@
           </div>
         </div>
 
-        <div class="card card-side bg-base-100 shadow-xl border pl-3 mb-6">
+        <div class="card card-side bg-base-100 shadow-xl border pl-3 mb-6 grid grid-cols-1 lg:flex">
           <figure><img src="Images/7.png" alt="" /></figure>
           <div class="card-body flex">
             <h2 class="card-title">World Cup Flags Football</h2>
@@ -275,7 +282,7 @@
       </div>
 
       <div>
-        <div class="card card-side bg-base-100 shadow-xl border pl-3 mb-6">
+        <div class="card card-side bg-base-100 shadow-xl border pl-3 mb-6 grid grid-cols-1 lg:flex">
           <figure><img src="Images/8.png" alt="" /></figure>
           <div class="card-body flex">
             <h2 class="card-title">World Cup Flags Football</h2>
@@ -310,7 +317,7 @@
           </div>
         </div>
 
-        <div class="card card-side bg-base-100 shadow-xl border pl-3 mb-6">
+        <div class="card card-side bg-base-100 shadow-xl border pl-3 mb-6 grid grid-cols-1 lg:flex">
           <figure><img src="Images/9.png" alt="" /></figure>
           <div class="card-body flex">
             <h2 class="card-title">Cap For Hockeys</h2>
@@ -345,7 +352,7 @@
           </div>
         </div>
 
-        <div class="card card-side bg-base-100 shadow-xl border pl-3 mb-6">
+        <div class="card card-side bg-base-100 shadow-xl border pl-3 mb-6 grid grid-cols-1 lg:flex">
           <figure><img src="Images/10.png" alt="" /></figure>
           <div class="card-body flex">
             <h2 class="card-title">World Cup Flags Football</h2>
@@ -380,8 +387,12 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section>
 
     </section>
+    
   </main>
   <footer>
 
